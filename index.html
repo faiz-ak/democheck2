@@ -9,6 +9,15 @@
      <div style="display: flex; justify-content: center; align-items: center; height: 100vh;
     font-size: 32px;font-weight: 600;">Hello world i am a website</div>
     
-
+<span id="add">0</span>
+    <button onclick="count()">Click on me</button>
+</body>
+<script>
+    let counter=0;
+function count(){
+counter--;
+document.getElementById("add").innerText = counter;
+}
+</script>
 </body>
 </html>
